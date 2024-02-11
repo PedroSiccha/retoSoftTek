@@ -1,0 +1,20 @@
+{
+  "name": "backend-nodejs-aws",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "serverless deploy"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1555.0",
+    "axios": "^0.24.0",
+    "serverless-http": "^2.6.1"
+  },
+  "devDependencies": {
+    "serverless-offline": "^13.3.3"
+  }
+}

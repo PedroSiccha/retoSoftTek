@@ -1,0 +1,20 @@
+service: backend-nodejs-aws
+
+provider:
+  name: aws
+  runtime: nodejs14.x
+  region: us-east-1
+
+functions:
+  getTranslation:
+    handler: src/interfaces/controllers/getTranslationController.handler
+    events:
+      - http:
+          path: /translation
+          method: get
+  postTranslation:
+    handler: src/interfaces/controllers/postTranslationController.handler
+    events:
+      - http:
+          path: /translation
+          method: post

@@ -1,0 +1,38 @@
+# Node.js dependencies
+node_modules/
+
+# Serverless Framework artifacts
+.serverless/
+
+# Environment variables file (if you're using .env)
+.env
+
+# Mac OS files
+.DS_Store
+
+# Editor-specific files
+.vscode/
+.idea/
+
+# Logs and debugging files
+logs/
+*.log
+npm-debug.log*
+
+# Dependency lock files
+package-lock.json
+yarn.lock
+
+# IDE files
+*.iml
+*.ipr
+*.iws
+
+# Cache and build files
+.cache/
+dist/
+build/
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
